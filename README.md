@@ -103,4 +103,11 @@ Copier le code
 
 <div align="center"> <img src="image/Exercice2.jpg" alt="Résultat Exercice " width="1000"/> <p><em>Figure 2 — </em></p> </div>
 
+## Compilation & exécution
+```bash
+cd src
+javac com/example/tp/*.java
+java com.example.tp.Main
+```
+
 
