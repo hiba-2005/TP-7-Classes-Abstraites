@@ -23,6 +23,7 @@ Modéliser un système de paie pour une entreprise contenant différents types d
 L’objectif est de **calculer automatiquement le salaire** selon le type d’employé grâce au **polymorphisme**.
 ---
 ### Structure du projet
+``` bash
 TP7Gestion de la paie des employés/
 └─ src/
 └─ com/example/tp/
@@ -32,7 +33,7 @@ TP7Gestion de la paie des employés/
 ├ Vendeur.java
 ├ Entreprise.java
 └ Main.java
-
+````
 ###  Classes principales
 
 - **Employe (abstraite)**  
@@ -69,6 +70,7 @@ L’objectif est de **calculer la taille totale** du système et d’**afficher 
 ---
 
 ###  Structure du projet
+``` bash
 TP7-Modélisation d’un système de fichiers/
 └─ src/
 └─ com/example/tp/
@@ -77,9 +79,7 @@ TP7-Modélisation d’un système de fichiers/
 ├ Directory.java
 ├ FileSystem.java
 └ Main.java
-
-yaml
-Copier le code
+``` 
 
 ---
 
@@ -103,11 +103,9 @@ Copier le code
 
 <div align="center"> <img src="image/Exercice2.jpg" alt="Résultat Exercice " width="1000"/> <p><em>Figure 2 — </em></p> </div>
 
-## Compilation & exécution
-```bash
+Compilation & exécution
+````bash
 cd src
 javac com/example/tp/*.java
 java com.example.tp.Main
-```
-
-
+````
